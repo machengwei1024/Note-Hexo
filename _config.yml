@@ -1,0 +1,69 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  首页: /
+  关于: /about/
+  标签: /tags/
+  链接: /links/
+
+# 网站Logo(Logo图片路径或链接)
+logo: https://cdn.weic96.cn/website/e/af/4b46b1166b26f80fef4ff708bedaf.png
+
+# 社交按钮链接
+github: 
+weibo: 
+e-mail: 
+rss:
+
+# 文章页文章打赏功能
+post_donate:
+  enable: true
+  alipay: https://cdn.weic96.cn/alipay.jpg
+  wechat: https://cdn.weic96.cn/weixin.jpg
+  qq: https://cdn.weic96.cn/qq.jpg
+
+# favicon路径
+favicon: /favicon.ico
+
+# 首页的文章预览裁剪字数(如果文章有摘要则会优先显示摘要，如果没有的话会裁剪正文来显示)
+index_post:
+  enable: true
+  length: 130
+
+# 文章页是否显示摘要内容(可选值true/false，如果填true文章页则会显示摘要和正文，否则只显示正文)
+post_excerpt: false
+
+# ICP备案号(默认关闭)
+icp: 
+  enable: false
+  number: 京ICP备12345678号
+
+# 主题版本
+version: 0.1
+
+##### 非授权用户请勿修改以下部分及本主题所有页面组织代码 #####
+##### 如需购买授权请访问 https://weic.me/themes-hexo-life #####
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/font-awesome.min.css
+- /css/atom-one-light.css
+- /css/jquery.fancybox.css
+- /css/waves.min.css
+- /css/layout.css
+- /css/adapt.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-2.2.4.min.js
+- /js/jquery.pjax.js
+- /js/highlight.pack.js
+- /js/highlightjs-line-numbers.js
+- /js/jquery.fancybox.js
+- /js/jquery.qrcode.min.js
+- /js/waves.min.js
+
+# Life Script
+life_script: /js/main.js
