@@ -1,11 +1,11 @@
 {% if page.current && page.total %}
     <nav class="pagination">
-        {{ 
-            paginator({
-                prev_text: "<span class='pagination-up pagination-text fa fa-angle-double-left'></span>",
-                next_text: "<span class='pagination-down pagination-text fa fa-angle-double-right'></span>", 
-                mid_size: 1,
-            }) 
-        }}
+        {% if page.prev %}
+        	<a href='{{ url_for(page.prev_link) }}' class='pagination-up pagination-text fa fa-angle-double-left'></a>
+        {% endif %}
+        <span class='pagination-number'>第 {{page.current}} 页 / 共 {{page.total}} 页</span>
+        {% if page.next %}
+            <a href='{{ url_for(page.next_link) }}' class='pagination-down pagination-text fa fa-angle-double-right'></a>
+        {% endif %}
     </nav>
 {% endif %}

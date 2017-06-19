@@ -649,7 +649,7 @@ button:focus{
 .pagination-text:link{
 	color: #999;
 }
-.page-number{
+.pagination-number{
 	font-size: 10pt;
 	color: #999;
 	font-weight: 200;
