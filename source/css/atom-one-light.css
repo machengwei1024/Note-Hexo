@@ -96,3 +96,25 @@ hue-6-2: #c18401
 .hljs-link {
   text-decoration: underline;
 }
+
+/*代码行号*/
+/*.hljs {
+  border: 0;
+  display: block;
+  padding: 1px;
+  margin: 0;
+}
+.hljs ul {
+  margin: 0px 0px 0 40px;
+  padding: 0px;
+  color: #eee
+}
+.hljs ul li {
+  list-style: decimal;
+  border-left: 1px solid #ddd;
+  padding: 5px;
+  padding-left: 10px;
+  margin: 0;
+  line-height: 14px;
+  color: #255;
+}*/

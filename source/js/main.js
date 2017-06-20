@@ -54,6 +54,11 @@ function otherF(){
             }
         });
     });
+
+    // 代码行号
+    // $("code").each(function(){
+    //     $(this).html("<ul><li>" + $(this).html().replace(/\n/g,"\n</li><li>") +"\n</li></ul>");
+    // });
    
     // 文章页打赏
     var post_page_donate = $(".post-donate-btn").css("bottom");

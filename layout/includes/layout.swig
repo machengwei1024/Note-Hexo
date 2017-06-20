@@ -110,32 +110,28 @@
 </script>
 <script type="text/javascript">
     window.onload = function(){
-        $('.page-loading').fadeOut();
-    }
+        $('.page-loading').fadeOut(); 
+    } 
 </script>
 <script type="text/javascript">
     hljs.initHighlightingOnLoad();
     hljs.initLineNumbersOnLoad();
     Waves.displayEffect();
     otherF();
-    $(document).pjax('a', '#pjax-container', {fragment:'#pjax-container', timeout:8000});
-    $(document).on('pjax:send', function() {
+    $(document).pjax('a', '#pjax-container', {fragment:'#pjax-container', timeout:8000}).on('pjax:send', function() {
       $('.page-loading').fadeIn();
-    });
-    $(document).on('pjax:complete', function() {
+    }).on('pjax:complete', function() {
       $('pre code').each(function(i, block){
         hljs.highlightBlock(block);
       })
       $('code.hljs').each(function(i, block) {
         hljs.lineNumbersBlock(block);
       });
+    }).on('pjax:end', function(){
       Waves.displayEffect();
       otherF();
       $('.page-loading').fadeOut();
-    });
-    $(document).on('pjax:popstate', function() {
-      $.pjax.reload('#pjax-container');
-    });
+    })
 </script>
 
 </body>
