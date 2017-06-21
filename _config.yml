@@ -10,7 +10,10 @@ menu:
   链接: /links/
 
 # 网站Logo(Logo图片路径或链接)
-logo: https://cdn.weic96.cn/website/e/af/4b46b1166b26f80fef4ff708bedaf.png
+logo: 
+
+# 网站首页头图
+blog_cover: 
 
 # 社交按钮链接
 github: 
@@ -18,12 +21,12 @@ weibo:
 e-mail: 
 rss:
 
-# 文章页文章打赏功能
+# 文章页文章打赏功能（enable可选true/false，alipay、wechat、qq应为url）
 post_donate:
   enable: true
-  alipay: https://cdn.weic96.cn/alipay.jpg
-  wechat: https://cdn.weic96.cn/weixin.jpg
-  qq: https://cdn.weic96.cn/qq.jpg
+  alipay: 
+  wechat: 
+  qq: 
 
 # favicon路径
 favicon: /favicon.ico
