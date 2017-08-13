@@ -13,7 +13,7 @@ menu:
 logo: 
 
 # 网站首页头图
-blog_cover: 
+blog_cover: /images/ghost-default-bg.jpg
 
 # 社交按钮链接
 github: 
@@ -45,7 +45,7 @@ icp:
   number: 京ICP备12345678号
 
 # 主题版本
-version: 0.3
+version: 1.0
 
 ##### 非授权用户请勿修改以下部分及本主题所有页面组织代码 #####
 ##### 如需购买授权请访问 https://weic.me/themes-hexo-life #####

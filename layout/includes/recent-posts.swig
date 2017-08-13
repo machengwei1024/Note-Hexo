@@ -1,6 +1,5 @@
 <div class="body-layout">
     <div class="index-header" style="background:url({{ theme.blog_cover }});background-size:100% 100%;background-repeat:no-repeat;">
-       <div class="index-header-wave"></div>
     </div>
     <div class="index-container">
 {% if site.posts.length > 0 %}
@@ -9,7 +8,7 @@
       <article class="index-post-abstract">
                 <header>
                     <h2><a href="{{ config.root }}{{ postItem.path }}">{{ postItem.title }}</a></h2>
-                  {% if postItem.date %} 
+                  {% if postItem.date %}
                     <time datetime="{{ postItem.date.toJSON() }}">{{ date(postItem.date) }}</time>
                   {% endif %}
                   {% if postItem.categories and postItem.categories.length %}
